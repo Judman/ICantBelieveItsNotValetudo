@@ -26,6 +26,7 @@ The recommended install method for ICBINV is to clone the repo and then use the 
 With docker-compose, it would look something like this:
 
 ```
+services:
   icantbelieveitsnotvaletudo:
     build:
       context: ./ICantBelieveItsNotValetudo/
